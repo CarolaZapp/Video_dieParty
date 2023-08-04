@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+  font-family: "Roboto", sans-serif;
+}
+
+.project__container {
+  color: var(--font-six);
+  text-align: center;
+  background-image: url("../images/bokeh-g215e54012_1920.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+.project__fadeBackground {
+  background: rgba(255, 255, 255, 0.7);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project__video {
+  width:80%;
+  padding:clamp(0.5rem, 1vw, 1rem);
+  border: clamp(2px, 0.5vw ,5px) solid rgb(167, 129, 40);
+}
+
+.project-link {
+  font-size: clamp(1rem, 2vw, 2rem);
+  text-decoration: none;
+  color: rgb(167, 129, 40);
+}
